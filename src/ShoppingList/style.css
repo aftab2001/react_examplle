@@ -1,0 +1,71 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.shopping-container{
+    /* max-height: 50vh; */
+    background-color: peachpuff;
+    padding:4vw;
+  }
+  h1,
+  .shopping-list {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .shopping-list {
+    /* margin-top: 50px; */
+    margin-top: 4vh;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 24px;
+  }
+  
+  .delete {
+    background: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+  }
+  button{
+    background-color: rgb(166, 57, 57);
+    outline:none;
+    border: none;
+    color: white;
+    margin: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    letter-spacing:1px ;
+    transition: 0.25s;
+    
+    transition-timing-function: ease-out;
+  }
+  button:hover{
+    background-color: rgb(45, 151, 45);
+  }
+  input{
+    min-width: 50%;
+    line-height: min(4vw,40px);
+    padding: 4px;
+    margin: 4px;
+  }
+  
